@@ -1,3 +1,3 @@
 # trwstin.me
-cute little web-portfolio.
+personal web-portfolio.
 template by imfunny.
