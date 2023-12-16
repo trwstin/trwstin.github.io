@@ -161,12 +161,6 @@ a {
     transform: translateY(20%);
 }
 
-@media (min-width: 768px) {
-    .swiper-pagination {
-        display: none !important;
-    }
-}
-
 /* sec_project */
 .project_slider{
     width: calc(100% + 60px);
