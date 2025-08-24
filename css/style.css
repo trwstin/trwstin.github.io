@@ -134,7 +134,7 @@ a {
     display: inline-block;
     text-decoration: none;
     padding: 12px 14px;
-    background: #F1F4FD;
+    background: #dbe4ff;
     border-radius: 8px;
     color: #6A86EAFF;
     outline: none;
@@ -192,7 +192,7 @@ a {
 }
 
 .project_slider .swiper-slide a{
-    background: #F1F4FDFF;
+    background: #dbe4ff;
     position: relative;
     text-decoration: none;
     display: block;
@@ -248,7 +248,7 @@ a {
     justify-content: center;
     width: 55px;
     height: 55px;
-    background: #D0D9F8FF;
+    background: rgb(197, 208, 246);
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
