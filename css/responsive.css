@@ -65,7 +65,12 @@
         -moz-transition: var(--transition_3s);
         -ms-transition: var(--transition_3s);
         -o-transition: var(--transition_3s);
-}
+    }
+    
+    /* Maintain fixed height on mobile */
+    .project_slider .swiper-slide a{
+        height: 350px; /* Increased height for mobile */
+    }
     .project_slider .swiper-slide.swiper-slide-prev,
     .project_slider .swiper-slide.swiper-slide-next{
         transform: scale(.85);
@@ -106,6 +111,11 @@
         -moz-transform: translateY(0);
         -ms-transform: translateY(0);
         -o-transform: translateY(0);
+    }
+    
+    /* Increased height for small screens */
+    .project_slider .swiper-slide a{
+        height: 320px;
     }
 
     .mobile {

@@ -195,7 +195,8 @@ a {
     background: #dbe4ff;
     position: relative;
     text-decoration: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -207,6 +208,7 @@ a {
     -moz-transition: var(--transition_3s);
     -ms-transition: var(--transition_3s);
     -o-transition: var(--transition_3s);
+    height: 270px; /* Reduced height for 2-line descriptions */
 }
 
 .project_slider .swiper-slide a::before {
@@ -235,6 +237,23 @@ a {
     -moz-transform: skew(45deg) translateX(-510px);
     -ms-transform: skew(45deg) translateX(-510px);
     -o-transform: skew(45deg) translateX(-510px);
+}
+
+/* Project card content layout */
+.project_slider .swiper-slide h3 {
+    margin-bottom: 10px;
+}
+
+.project_slider .swiper-slide p {
+    flex-grow: 1;
+    overflow: hidden;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.project_slider .swiper-slide img[src="img/arrow.svg"] {
+    align-self: flex-end;
+    margin-top: auto;
 }
 
 .slide_icon_row{
